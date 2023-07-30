@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "@tsconfig/recommended/tsconfig.json",
+    "@tsconfig/node18/tsconfig.json",
+    "@tsconfig/esm/tsconfig.json"
+  ],
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "types": ["vitest/globals"],
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {}
+  },
+  "include": ["src", "types", "vite.config.ts"],
+  "exclude": ["node_modules", "dist"]
+}
