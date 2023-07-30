@@ -1,4 +1,3 @@
-// tf-idfのうちidfを実装する
 type IDF = (term: string, docs: string[]) => number
 
 export const idf: IDF = (term, docs) => {

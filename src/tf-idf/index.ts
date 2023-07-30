@@ -1,6 +1,5 @@
-import { tf } from "./tf"
-import { idf } from "./idf"
-
+import { tf } from './tf'
+import { idf } from './idf'
 
 type TFIDF = (term: string, doc: string, docs: string[]) => number
 

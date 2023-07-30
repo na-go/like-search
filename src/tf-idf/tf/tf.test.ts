@@ -1,5 +1,3 @@
-// tf-idfのうちtfのテスト
-
 import { tf } from '.'
 import { describe, expect, test } from 'vitest'
 
