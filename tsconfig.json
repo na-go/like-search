@@ -9,8 +9,7 @@
     "types": ["vitest/globals"],
     "outDir": "dist",
     "baseUrl": ".",
-    "paths": {
-    }
+    "paths": {}
   },
   "include": ["src", "types", "vite.config.ts"],
   "exclude": ["node_modules", "dist"]
