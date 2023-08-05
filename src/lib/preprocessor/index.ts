@@ -6,6 +6,6 @@ interface Preprocessor {
 export const preprocessor: Preprocessor = {
   preprocess(text: string): string {
     // 全角スペースを削除し、特殊文字を削除
-    return text.replace(/ /g, '').replace(/[！？、。]/g, '');
-  }
+    return text.replace(/ /g, '').replace(/[！？、。]/g, '')
+  },
 }
