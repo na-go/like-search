@@ -10,7 +10,6 @@
     "outDir": "dist",
     "baseUrl": ".",
     "paths": {
-      "@utiles/*": ["src/utiles/*"]
     }
   },
   "include": ["src", "types", "vite.config.ts"],
