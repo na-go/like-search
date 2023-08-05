@@ -9,5 +9,9 @@ module.exports = {
   parserOptions: {
     project: ['./tsconfig.json'],
   },
-  rules: {},
+  rules: {
+    'no-unused-vars': 'error',
+    '@typescript-eslint/consistent-type-definitions': 'off',
+    '@typescript-eslint/array-type': 'off',
+  },
 }
